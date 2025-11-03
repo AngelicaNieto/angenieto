@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Edu+VIC+WA+NT+Hand:wght@400..700&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1{
+    font-family: "MuseoModerno", sans-serif;
+    font-size: 117px;
+    color:#0a2ff1;
+    font-style: bold;
+    width: 100px;
+    height: auto;
+}
+
+
+p{
+    font-family: "Asap",sans-serif;
+    font-size: 33px;
+    color: #0a2ff1
+    
+}
+
+strong{
+    background: #3ffff3;
+ }
