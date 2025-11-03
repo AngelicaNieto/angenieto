@@ -1,0 +1,62 @@
+#body{
+ background-color: blue;
+}
+
+#contenedor{
+    width: 780px;
+    height: 500px;
+    background-color: aliceblue;
+    margin: auto;
+
+
+ /*Flexbox*/
+    display: flex;/*ubica los elementos de bloque uno al lado del otro*/
+    /* justify-content:start;/*predeterminadores:a la izquierda*/
+    /*justify-content:end;/*ubica a la derecha*/
+    /*justify-content: center;/*centra los elementos contenidos*/
+    /*border: 1px #fcb419;
+    /*Separacion de los elementos contenidos*/
+
+    justify-content: space-between;
+   /* alineacion en el eje vertical*/
+
+   /*align-items: start; /*predeterminada*/
+   /*align-items: end; /*abajo*/
+   align-items: center; /*medio*/
+
+
+
+
+
+}
+
+/*Descendencia: elementos hijos*/
+/*en este caso los article que estan dentro del contenedor*/
+
+#contenedor article{
+    width: 200px;
+    height: 250px;
+    background-color: blueviolet;
+    border: 1px solid salmon;
+
+   
+}
+
+
+#contenedor2{
+    background-color: aliceblue;
+    width: 900px;
+    margin: auto;
+    height: 600px;
+    margin-top: 32px;
+    justify-content: space-between;
+
+}
+#contenedor2 article{
+    width: 260px;
+    height: 400px;
+    background-color: aqua;
+    color: blue;
+
+}
+

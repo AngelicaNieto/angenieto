@@ -1,0 +1,21 @@
+#naranja{
+    background-color:#e36613;
+    height: 120px;
+    width: 250px; 
+    margin: 50px;
+}
+#verde{
+    background-color:rgb(0, 255, 13);
+    height: 120px;
+    width: 250px;
+    margin-left: 200px;
+    margin-bottom: 70px; /*separacio hacia abajo*/
+}
+#celeste{
+    background-color: #1390e3;
+    height: 120px;
+    width: 250px;
+    /*usamos margin para centrar una caja*/
+    /*en el eje horizontal*/
+    margin: auto;
+}
